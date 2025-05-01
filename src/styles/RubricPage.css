@@ -1,0 +1,42 @@
+.rubric-content {
+    padding: 40px 80px;
+  }
+  
+  .rubric-content h2 {
+    margin-bottom: 20px;
+    color: #1a2b6d;
+  }
+  
+  .rubric-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .rubric-table th,
+  .rubric-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .rubric-table th {
+    background-color: #e5ecff;
+    color: #1a2b6d;
+  }
+  
+  .return-home-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #3554d1;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .return-home-btn:hover {
+    background-color: #2c47b0;
+  }
+  

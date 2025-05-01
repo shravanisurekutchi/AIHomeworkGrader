@@ -1,0 +1,141 @@
+.analyze-wrapper {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f8fd;
+    min-height: 100vh;
+  }
+  
+  /* Reuse header from previous pages */
+  .main-header {
+    background-color: #1a2b6d;
+    padding: 0;
+    color: white;
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+  
+  .header-left h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-btn {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 14.5px;
+    cursor: pointer;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+    padding: 4px 8px;
+    text-decoration: none;
+  }
+  
+  .header-btn:hover {
+    color: #ffdd57;
+  }
+  
+  .logo-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo-link:visited {
+    color: white;
+  }
+  
+  .logo-link:hover {
+    color: #ffdd57;
+  }
+  
+  /* Layout */
+  .analyze-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    gap: 30px;
+  }
+  
+  /* Upload Section */
+  .upload-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .upload-box {
+    background-color: white;
+    border: 2px solid #dceaff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .upload-box h3 {
+    margin: 0 0 10px;
+    color: #1a2b6d;
+  }
+  
+  .upload-box p {
+    margin: 0 0 12px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .upload-box button {
+    background-color: #3554d1;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .upload-box button:hover {
+    background-color: #2c47b0;
+  }
+  
+  /* Instructions Section */
+  .instructions-section {
+    width: 400px;
+    background: white;
+    padding: 25px;
+    border: 2px solid #dceaff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .instructions-section h2 {
+    color: #1a2b6d;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .instructions-section ol {
+    margin-left: 18px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .instructions-section .tip {
+    margin-top: 15px;
+    font-size: 13px;
+    font-style: italic;
+    color: #666;
+  }
+  

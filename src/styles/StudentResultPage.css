@@ -1,0 +1,49 @@
+.result-wrapper {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f8fd;
+    min-height: 100vh;
+  }
+  
+  .result-content {
+    padding: 40px 80px;
+  }
+  
+  .result-content h2 {
+    color: #1a2b6d;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  table th {
+    background-color: #e5ecff;
+    color: #1a2b6d;
+  }
+
+  .feedback-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f6ff;
+    border-left: 4px solid #3554d1;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .feedback-box h4 {
+    margin-bottom: 10px;
+    color: #1a2b6d;
+  }
+  
+  

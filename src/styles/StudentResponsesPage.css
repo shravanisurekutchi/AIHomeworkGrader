@@ -1,0 +1,83 @@
+.student-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .student-cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .student-card {
+    background: white;
+    border: 2px solid #dceaff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  .student-thumbnail {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .student-card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #1a2b6d;
+  }
+  
+  .student-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .student-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .average-score {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a2b6d;
+  }
+
+  .assignment-tabs {
+    padding: 20px 50px;
+    background-color: #f5f8fd;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .assignment-btn {
+    padding: 10px 20px;
+    border: 2px solid #3554d1;
+    background-color: white;
+    color: #3554d1;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .assignment-btn.active {
+    background-color: #3554d1;
+    color: white;
+  }
+  
+  .average-score {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a2b6d;
+  }
+  
+  
+    
