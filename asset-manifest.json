@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AIHomeworkGrader/static/css/main.53c3b77f.css",
-    "main.js": "/AIHomeworkGrader/static/js/main.f62577bf.js",
+    "main.js": "/AIHomeworkGrader/static/js/main.dac18462.js",
     "static/js/453.ff256435.chunk.js": "/AIHomeworkGrader/static/js/453.ff256435.chunk.js",
     "index.html": "/AIHomeworkGrader/index.html",
     "main.53c3b77f.css.map": "/AIHomeworkGrader/static/css/main.53c3b77f.css.map",
-    "main.f62577bf.js.map": "/AIHomeworkGrader/static/js/main.f62577bf.js.map",
+    "main.dac18462.js.map": "/AIHomeworkGrader/static/js/main.dac18462.js.map",
     "453.ff256435.chunk.js.map": "/AIHomeworkGrader/static/js/453.ff256435.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53c3b77f.css",
-    "static/js/main.f62577bf.js"
+    "static/js/main.dac18462.js"
   ]
 }
